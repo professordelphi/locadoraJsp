@@ -1,40 +1,87 @@
-Onde? Rua Clarival do Prado Valladares 241, apto. 402, ed. Rosa Branca, Caminho das Árvores.
-Às 16:00 hrs. 
-Te espero !!!
+-- phpMyAdmin SQL Dump
+-- version 3.1.1
+-- http://www.phpmyadmin.net
+--
+-- Servidor: localhost
+-- Tempo de Geração: Dez 03, 2016 as 12:07 PM
+-- Versão do Servidor: 5.1.30
+-- Versão do PHP: 5.2.8
 
-Vai ter hoje célula?
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Banco de Dados: `mercado_luan`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `cliente`
+--
+
+CREATE TABLE IF NOT EXISTS `cliente` (
+  `codcli` int(3) NOT NULL AUTO_INCREMENT,
+  `nomecli` varchar(50) NOT NULL,
+  `endcli` varchar(50) NOT NULL,
+  `telcli` varchar(20) NOT NULL,
+  `celcli` varchar(20) NOT NULL,
+  `cpfcli` varchar(20) NOT NULL,
+  `usuariocli` varchar(20) NOT NULL,
+  `senhacli` varchar(20) NOT NULL,
+  PRIMARY KEY (`codcli`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+--
+-- Extraindo dados da tabela `cliente`
+--
+
+INSERT INTO `cliente` (`codcli`, `nomecli`, `endcli`, `telcli`, `celcli`, `cpfcli`, `usuariocli`, `senhacli`) VALUES
+(1, 'Luis ', 'Atravessa laranjeiras', '71 33049875', '71 98565478', '', 'Goulart', '123456789');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `funcionario`
+--
+
+CREATE TABLE IF NOT EXISTS `funcionario` (
+  `codfunc` int(50) NOT NULL AUTO_INCREMENT,
+  `nomefunc` varchar(50) NOT NULL,
+  `endfunc` varchar(20) NOT NULL,
+  `telfunc` varchar(20) NOT NULL,
+  `celfunc` varchar(20) NOT NULL,
+  `cpffunc` varchar(20) NOT NULL,
+  `usufunc` varchar(20) NOT NULL,
+  `senhafunc` varchar(20) NOT NULL,
+  PRIMARY KEY (`codfunc`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+--
+-- Extraindo dados da tabela `funcionario`
+--
+
+INSERT INTO `funcionario` (`codfunc`, `nomefunc`, `endfunc`, `telfunc`, `celfunc`, `cpffunc`, `usufunc`, `senhafunc`) VALUES
+(1, 'Luis', 'Rua silveira', '77', '66', '', '44', '33'),
+(2, 'Luis', 'Rua silveira', '77', '66', '55', '44', '33');
+
+
+Estudo sobre Scrum
+
+Termos usados para o Scrum
+
+Product Backlog - projeto que contem uma lista de funcionalidades para serem implementadas.
+
+Sprint  Planning Meeting - reunião de planejamento na qual o Product Owner prioriza os itens do Product Backlog.
+
+Sprint Backlog é uma lista de tarefas que o Scrum Team se compromete a fazer em um Sprint.
+
+Sprint Burndown Chart - gráfico que recebe atualização diaria sobre o trabalho do Sprint Backlog. Essa inserção é feita pelo Scum Master.
+
+Daily Scrum - disseminar conhecimento do que foi feito no dia anterior. É feito pelo turno matutino.
+
+Sprint Review Meeting - Ao final de um Sprint a equipe apresenta as funcionalidades implementadas.
+
+Sprint Retrospective - revisão do que foi feito no Sprint.
 
 
 
-
-Marcos - 24/11/2016 18:47
-
-tenho interesse
-
-Marcos - 24/11/2016 18:48
-
-como faco para colocar no meu celta
-
-Marcos - 24/11/2016 18:48
-
-é 1.0
-
-Marcos - 24/11/2016 18:48
-
-cai a performance quanto?
-
-Marcos - 24/11/2016 18:49
-
-o kit eh 990 ?
-
-Marcos - 24/11/2016 18:49
-
-já instalado?
-
-Marcos - 24/11/2016 18:49
-
-meu email é marcos.professordelphi@gmail.com
-
-Marcos - 24/11/2016 18:49
-
-e o meu whatsapp é 71 98864-0080
