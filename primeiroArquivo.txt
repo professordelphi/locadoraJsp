@@ -64,6 +64,11 @@ INSERT INTO `funcionario` (`codfunc`, `nomefunc`, `endfunc`, `telfunc`, `celfunc
 (1, 'Luis', 'Rua silveira', '77', '66', '', '44', '33'),
 (2, 'Luis', 'Rua silveira', '77', '66', '55', '44', '33');
 
+<div id="tituloRodape"> </div>
+
+                                                                                <!-- <div id="tituloRodape">  </div> -->
+
+<a href="www.ig.com.br" target="_blank">ig</a>
 
 Estudo sobre Scrum
 
@@ -82,6 +87,8 @@ Daily Scrum - disseminar conhecimento do que foi feito no dia anterior. É feito 
 Sprint Review Meeting - Ao final de um Sprint a equipe apresenta as funcionalidades implementadas.
 
 Sprint Retrospective - revisão do que foi feito no Sprint.
+
+Buscar screenshoot para estudar sobre scrum
 
 
 
