@@ -1,0 +1,22 @@
+﻿
+Whatsapp
+
+Horario 
+20:30  
+
+Fernando Ruterto Vidaure Dulanto
+
+71 92464230
+
+Mintza
+71 91135083
+
+
+https://github.com/professordelphi/locadoraJsp.git
+
+
+git checkout nomedabranch
+
+
+
+
